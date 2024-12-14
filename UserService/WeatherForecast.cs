@@ -1,4 +1,4 @@
-namespace UserService {
+/*namespace UserService {
     public class WeatherForecast {
         public DateOnly Date { get; set; }
 
@@ -8,4 +8,4 @@ namespace UserService {
 
         public string? Summary { get; set; }
     }
-}
+}*/

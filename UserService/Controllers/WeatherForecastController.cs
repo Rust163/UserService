@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+/*using Microsoft.AspNetCore.Mvc;
 
 namespace UserService.Controllers {
     [ApiController]
@@ -25,4 +25,4 @@ namespace UserService.Controllers {
             .ToArray();
         }
     }
-}
+}*/
