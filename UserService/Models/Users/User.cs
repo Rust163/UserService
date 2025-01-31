@@ -21,6 +21,12 @@ namespace UserService.Models.Users {
         [Required(ErrorMessage = "Поле телефон является обязательным для ввода!")]
         [Column("Phone")]
         public string Phone { get; set; } //Номер телефона
+        [Required(ErrorMessage = "Поле ввода страны является обязательным!")]
+        [Column("Country")]
+        public string Country {  get; set; }//Страна
+        [Required(ErrorMessage = "Поле почтового индекса является обязательным!")]
+        [Column("PostIndex")]
+        public string PostIndex {  get; set; }//Почтовый индекс
         [Required(ErrorMessage = "Поле серия пасторта является обязательным для ввода!")]
         [Column("PassportSeries")]
         public string PassportSeries { get; set; } //Серия паспорта

@@ -27,7 +27,7 @@ namespace UserService.Controllers {
             return Ok(entities);
         }
 
-        [HttpPost]
+        [HttpPost("register")]
         public async Task<IActionResult> Add([FromBody] T entity) {
             await _repository.AddAsync(entity);
             return Ok($"{typeof(T).Name} успешно добален!");
